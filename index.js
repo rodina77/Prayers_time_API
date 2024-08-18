@@ -21,4 +21,5 @@ function get_prayer_time(city_name){
     }
   })
 }
+
 get_prayer_time("cairo");
