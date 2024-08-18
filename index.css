@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(11, 28, 72);
+}
+.Country_data_div
+{
+  background-color: rgb(6, 18, 48);
+  color: white;
+}
+.country_name_h1
+{
+  font-size: 100px;
+  padding: 50px 30px 0px 30px;
+  text-align: center;
+}
+.prayers_logo
+{
+  text-align: center;
+}
+.day_date
+{
+  text-align: center;
+  font-size: 80px;
+  padding: 20px 30px;
+}
+.Prayers_time_div
+{
+  background-color: rgb(11, 28, 72);
+  color: white;
+  padding: 140px 10px;
+  text-align: center;
+}
+
+.fajr_time,.shrouk_time,.dohr_time,.asr_time,.magrib_time,.isha_time
+{
+  color: rgb(193, 168, 127);
+  font-size: 20px;
+  font-weight: 700;
+}
+.prayer_svg
+{
+  color: #d4b85d;
+  padding-top: 30px;
+}
+
+.country_selection
+{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.form-select
+{
+  width: 20%;
+  background-color: transparent !important;
+  color: white !important;
+}
+.form-select option{
+  color: #000000;
+}
+
+@media(max-width:1196px){
+  .country_name_h1,.day_date{
+    font-size: 20px;
+  }
+}
